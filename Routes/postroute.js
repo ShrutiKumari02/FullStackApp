@@ -31,7 +31,7 @@ const storage = multer.diskStorage({
 const upload = multer({storage:storage});
 
 post_route.post('/create-post',function(req,res){
-    res.send("Hii Shruti");
+    res.send("Hii Khervyn");
 });
 
 module.exports = post_route;
